@@ -112,12 +112,11 @@ git log --graph --pretty=format:"%h %s"
 1. **合作者**，将用户添加到仓库合作者中之后，该用户就可以向当前仓库提交代码。
 2. **组织**，将成员邀请进入组织，组织下可以创建多个仓库，组织成员可以向组织下仓库提交代码。
 
-![](https://cdn.staticaly.com/gh/xiehuacheng/pictures@master/img/image-20190806093802227.png)
+![](https://orange-pictures.oss-cn-guangzhou.aliyuncs.com/img/image-20190806093802227.png)
 
+![](https://orange-pictures.oss-cn-guangzhou.aliyuncs.com/img/image-20190806095639748.png)
 
-![](https://cdn.staticaly.com/gh/xiehuacheng/pictures@master/img/image-20190806095639748.png)
-
-![](https://cdn.staticaly.com/gh/xiehuacheng/pictures@master/img/image-20190806100240453.png)
+![](https://orange-pictures.oss-cn-guangzhou.aliyuncs.com/img/image-20190806121845153.png)
 
 ### Tag标签管理
 
@@ -136,17 +135,20 @@ git clone -b v0.1 地址               指定tag下载代码
 ### code review
 
 1. 配置，代码review之后才能合并到dev分支
-![](https://cdn.staticaly.com/gh/xiehuacheng/pictures@master/img/image-20190806122224316.png)
 
-![](https://cdn.staticaly.com/gh/xiehuacheng/pictures@master/img/image-20190806122307569.png)
+![](https://orange-pictures.oss-cn-guangzhou.aliyuncs.com/img/image-20190806122224316.png)
+
+![](https://orange-pictures.oss-cn-guangzhou.aliyuncs.com/img/image-20190806122307569.png)
 
 2. 完成开发后申请code review（发起一个pull request），申请时可以进行一定的设置，如：指定给谁来做
 
-![](https://cdn.staticaly.com/gh/xiehuacheng/pictures@master/img/image-20190806122501088.png)
+![](https://orange-pictures.oss-cn-guangzhou.aliyuncs.com/img/image-20190806122501088.png)
+
+![](https://orange-pictures.oss-cn-guangzhou.aliyuncs.com/img/image-20190806122733005.png)
 
 3. 被指定者（可以是组长或者其他成员）做code review（判断是否同意pull request）
 
-![](https://cdn.staticaly.com/gh/xiehuacheng/pictures@master/img/image-20190806123428479.png)
+![](https://orange-pictures.oss-cn-guangzhou.aliyuncs.com/img/image-20190806123428479.png)
 
 ## 向其他项目提供代码
 
@@ -161,4 +163,4 @@ git clone -b v0.1 地址               指定tag下载代码
 
 ## 一图流
 
-![](https://cdn.staticaly.com/gh/xiehuacheng/pictures@master/img/image-20190803104819552.png)
+![](https://orange-pictures.oss-cn-guangzhou.aliyuncs.com/img/image-20190803104819552.png)

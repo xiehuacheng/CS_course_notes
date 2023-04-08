@@ -92,11 +92,11 @@
 - 形式：`int redirect()`
 - 作用：用于I/O重定向（结合下文的I/O部分来理解）
 
-![](https://cdn.staticaly.com/gh/xiehuacheng/pictures@master/img/Pasted%20image%2020230405113730.png)
+![](https://orange-pictures.oss-cn-guangzhou.aliyuncs.com/img/Pasted%20image%2020230405113730.png)
 
 ### 常见的系统调用
 
-![](https://cdn.staticaly.com/gh/xiehuacheng/pictures@master/img/Pasted%20image%2020230405131007.png)
+![](https://orange-pictures.oss-cn-guangzhou.aliyuncs.com/img/Pasted%20image%2020230405131007.png)
 
 ## I/O and File descriptors
 ---
