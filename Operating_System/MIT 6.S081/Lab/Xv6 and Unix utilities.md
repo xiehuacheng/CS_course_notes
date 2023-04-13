@@ -48,7 +48,7 @@ else if (pid > 0)
 
 ### sleep(easy)
 
-执行系统准备好的sleep函数
+- 执行系统准备好的sleep函数
 
 ```c
 #include "kernel/types.h"
@@ -70,7 +70,7 @@ int main(int argc, char const *argv[])
 
 ### pingpong(easy)
 
-创建管道，链接父子进程的0和1文件描述符，进行数据传输
+- 创建管道，链接父子进程的0和1文件描述符，进行数据传输
 
 ```c
 #include "kernel/types.h"
@@ -129,7 +129,7 @@ int main(int argc, char const *argv[])
 
 ### primes (moderate)/(hard)
 
-通过递归调用创建子进程，执行素数筛的操作
+- 通过递归调用创建子进程，执行素数筛的操作
 
 ```c
 #include "kernel/types.h"
@@ -206,7 +206,7 @@ int main(int argc, char const *argv[])
 
 ### find(moderate)
 
-通过系统已经实现的ls的代码修改得到用于查找的函数，利用递归来实现对多级文件夹的查找
+- 通过系统已经实现的ls的代码修改得到用于查找的函数，利用递归来实现对多级文件夹的查找
 
 ```c
 #include "kernel/types.h"
@@ -330,7 +330,7 @@ int main(int argc, char *argv[])
 
 ### xargs(moderate)
 
-通过文件描述符0读取到前一个函数的标准输出，再对输出的`\n`符号进行判断并调用子进程进行分割，最后将处理好的参数作为额外参数交由下一个函数进行处理
+- 通过文件描述符0读取到前一个函数的标准输出，再对输出的`\n`符号进行判断并调用子进程进行分割，最后将处理好的参数作为额外参数交由下一个函数进行处理
 
 ```c
 #include "kernel/types.h"

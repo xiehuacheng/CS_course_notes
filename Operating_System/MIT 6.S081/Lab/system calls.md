@@ -7,11 +7,14 @@
 ---
 
 1. 做实验前记得先切换git分支到syscall上
+2. 修改和添加函数需要将声明补充或更新到defs.h文件中
 
 ## 实现
 ---
 
 ### System call tracing(moderate)
+
+- 跟踪系统调用
 
 - 按照实验要求修改对应文件
 
@@ -97,6 +100,8 @@ p->mask=0;
 
 
 ### Sysinfo(moderate)
+
+- 统计系统当前的可用内存以及进程个数
 
 - 先按上面的hints来修改文件
 
