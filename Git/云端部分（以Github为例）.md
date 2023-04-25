@@ -156,6 +156,31 @@ git clone -b v0.1 地址               指定tag下载代码
 2. 在自己仓库进行修改代码
 3. 给源代码的作者提交申请（pull request）
 
+## 删除提交记录
+
+## 来源
+
+[git 删除提交记录 - aaacarrot - 博客园 (cnblogs.com)](https://www.cnblogs.com/aaacarrot/p/16944361.html)
+
+### 操作
+
+想删除服务器上的记录，要做的操作指令有两条：  
+1. `git reset --hard 记录id  
+2. `git push origin 云端分支名`
+
+（当然，这个操作是要求有对应权限的）
+
+#### 步骤
+
+1. 切换到想要删除记录的分支，使用 git log 看一下提交记录  
+
+![image](https://img2023.cnblogs.com/blog/2750072/202212/2750072-20221202141811917-1348359614.png)
+
+2. `git reset --hard 记录id`
+
+3. 最后一步 `git push --force origin 云端分支名`
+   也可以用-f来替代--force
+
 ## 其他
 
 - issues，文档以及任务管理，其他人向该项目提问题或建议的渠道，开发者可以进行回答或关闭，也可以进行指派

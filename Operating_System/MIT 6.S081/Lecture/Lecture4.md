@@ -15,7 +15,7 @@
 
 通常来说，内存地址对应关系的表单也保存在内存中。所以CPU中需要有一些寄存器用来存放表单在物理内存中的地址。现在，在内存的某个位置保存了地址关系表单，我们假设这个位置的物理内存地址是0x10。那么在RISC-V上一个叫做**SATP**的寄存器会保存地址0x10
 
-![[assets_-MHZoT2b_bcLghjAOPsJ_-MKKjB2an4WcuUmOlE___-MKONgZr-r8W5uRpknWQ_image.webp]]
+![](https://orange-pictures.oss-cn-guangzhou.aliyuncs.com/img/assets_-MHZoT2b_bcLghjAOPsJ_-MKKjB2an4WcuUmOlE___-MKONgZr-r8W5uRpknWQ_image.webp)
 
 这里的基本想法是每个应用程序都有自己独立的表单，并且这个表单定义了应用程序的地址空间。所以当操作系统将CPU从一个应用程序切换到另一个应用程序时，同时也需要切换SATP寄存器中的内容，从而指向新的进程保存在物理内存中的地址对应表单
 
